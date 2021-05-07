@@ -15,7 +15,8 @@
   "require": {
     "php": ">=7.1.0"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "alpha",
+  "prefer-stable": true,
   "autoload": {
     "files": [ "registration.php" ],
     "psr-4": {
