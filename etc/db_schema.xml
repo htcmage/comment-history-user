@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+   
+    <table name="sales_order_status_history">
+        <column xsi:type="int" name="user_id" padding="10" unsigned="true" nullable="false" identity="false"
+                comment="User ID" />
+    </table>
+    <table name="sales_invoice_comment">
+        <column xsi:type="int" name="user_id" padding="10" unsigned="true" nullable="false" identity="false"
+                comment="User ID" />
+    </table>
+
+    <table name="sales_shipment_comment">
+        <column xsi:type="int" name="user_id" padding="10" unsigned="true" nullable="false" identity="false"
+                comment="User ID" />
+    </table>
+
+     <table name="sales_creditmemo_comment">
+        <column xsi:type="int" name="user_id" padding="10" unsigned="true" nullable="false" identity="false"
+                comment="User ID" />
+    </table>
+
+</schema>
