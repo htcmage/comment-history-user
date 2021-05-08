@@ -2,7 +2,7 @@
   "name": "htcmage/comment-history-user",
   "description": "Comment History User extension for Magento 2",
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "authors": [
     {
@@ -13,7 +13,8 @@
     }
   ],
   "require": {
-    "php": ">=7.1.0"
+    "php": ">=7.1.0",
+    "magento/framework": ">=102.0.0"
   },
   "autoload": {
     "files": [ "registration.php" ],
